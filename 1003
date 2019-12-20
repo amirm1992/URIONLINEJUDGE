@@ -1,0 +1,23 @@
+import java.io.IOException;
+ 
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+	// write your code here
+
+                int A,B;
+                Scanner sc = new Scanner(System.in);
+                A = sc.nextInt();
+                B = sc.nextInt();
+                int SOMA;
+
+                SOMA = A + B;
+
+        System.out.println("SOMA = "+SOMA);
+
+
+        }
+    }
+
